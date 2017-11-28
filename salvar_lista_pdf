@@ -1,0 +1,1 @@
+convert $(ls -v -I "*.ipynb") list.pdf
