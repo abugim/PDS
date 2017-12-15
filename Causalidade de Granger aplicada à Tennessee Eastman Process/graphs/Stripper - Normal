@@ -1,0 +1,14 @@
+digraph {
+	xmeas4 [label=xmeas4]
+	xmeas16 [label=xmeas16]
+	xmeas18 [label=xmeas18]
+	xmeas15 [label=xmeas15]
+	xmeas5 [label=xmeas5]
+		xmeas4 -> xmeas18 [color="#00000011"]
+		xmeas16 -> xmeas4 [color="#00000061"]
+		xmeas16 -> xmeas18 [color="#000000e3"]
+		xmeas18 -> xmeas4 [color="#00000076"]
+		xmeas18 -> xmeas5 [color="#00000035"]
+		xmeas18 -> xmeas15 [color="#0000001b"]
+		xmeas18 -> xmeas16 [color="#000000fe"]
+}
