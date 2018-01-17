@@ -1,0 +1,16 @@
+digraph {
+	xmeas20 [label=xmeas20]
+	xmeas7 [label=xmeas7]
+	xmeas11 [label=xmeas11]
+	xmeas22 [label=xmeas22]
+	xmeas13 [label=xmeas13]
+		xmeas7 -> xmeas13 [color="#00000017"]
+		xmeas11 -> xmeas7 [color="#0000000e"]
+		xmeas11 -> xmeas13 [color="#0000000d"]
+		xmeas11 -> xmeas22 [color="#00000024"]
+		xmeas13 -> xmeas7 [color="#0000001c"]
+		xmeas20 -> xmeas11 [color="#0000000f"]
+		xmeas22 -> xmeas7 [color="#00000015"]
+		xmeas22 -> xmeas11 [color="#000000ff"]
+		xmeas22 -> xmeas13 [color="#00000016"]
+}
